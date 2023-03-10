@@ -6,22 +6,24 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  /* background: url(../images/backgrounds/architecture.jpg) center no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  background-image: linear-gradient(red, white,black)
 }
 
 .wrapper {
   margin: 0 auto;
   width: 60%;
   padding-bottom: 40px;
+  
 }
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: rgb(0,0,0);
 }
 
 h1, h2 {
@@ -41,8 +43,9 @@ h2 {
 
 h3 {
   font-family: 'Gabriela', serif;
-  font-size: 1.5em;
+  font-size: 1.9em;
   margin-top: .5em;
+  color: rgb(255, 255, 255);
 }
 
 img {
@@ -52,16 +55,18 @@ img {
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
 }
 
 a {
-  color: black;
+  color: rgb(255,255,255);
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: red;
 }
 
 @media only screen and (max-width: 1042px) {
